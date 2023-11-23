@@ -7,7 +7,7 @@ import calificacionRoutes from './calificacion.routes.js';
 
 const router = express.Router();
 
-router.use('/estudiantes', estudianteRoutes);
+router.use('/estudiante', estudianteRoutes);
 router.use('/instructor', instuctorRoutes);
 router.use('/curso', cursoRoutes);
 router.use('/inscripcion', inscripcionRoutes);

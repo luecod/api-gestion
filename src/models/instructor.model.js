@@ -31,7 +31,7 @@ const Instructor = sequelize.define('Instructor', {
         type: DataTypes.STRING(255)
     },
     fecha_nacimiento: {
-        type: DataTypes.STRING(255)
+        type: DataTypes.DATEONLY
     }
 }, {
     timestamps: false,

@@ -21,11 +21,15 @@ const Estudiante = sequelize.define('Estudiante', {
         type: DataTypes.STRING(255),
         unique: true
     },
+    ciudad: {
+        type: DataTypes.STRING(255),
+        unique: true
+    },
     telefono: {
         type: DataTypes.STRING(20)
     },
     fecha_nacimiento: {
-        type: DataTypes.STRING(255)
+        type: DataTypes.DATEONLY
     }
 }, {
     timestamps: false,

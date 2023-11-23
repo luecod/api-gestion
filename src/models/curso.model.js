@@ -19,10 +19,10 @@ const Curso = sequelize.define('Curso', {
         type: DataTypes.INTEGER
     },
     fecha_inicio: {
-        type: DataTypes.DATE
+        type: DataTypes.DATEONLY
     },
     fecha_finalizacion: {
-        type: DataTypes.DATE
+        type: DataTypes.DATEONLY
     },
     id_instructur: {
         type: DataTypes.UUID,

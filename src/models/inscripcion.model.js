@@ -24,7 +24,7 @@ const Inscripcion = sequelize.define('Inscripcion', {
         }
     },
     fecha_inscripcion: {
-        type: DataTypes.DATE
+        type: DataTypes.DATEONLY
     },
     estado: {
         type: DataTypes.STRING(255)
