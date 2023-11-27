@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "build": "mkdir -p build build && cp -r src/* build/",
     "dev": "nodemon src/public/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
