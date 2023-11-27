@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "mkdir -p build build && cp -r src/* build/",
+    "start": "node build/index.js",
     "dev": "nodemon src/public/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
