@@ -28,6 +28,8 @@ const Inscripcion = sequelize.define('Inscripcion', {
     },
     estado: {
         type: DataTypes.STRING(255)
+    }, calificacion: {
+        type: DataTypes.FLOAT
     }
 }, {
     timestamps: false,
