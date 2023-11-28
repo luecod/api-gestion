@@ -5,8 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/public/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "mkdir -p build build && cp -r src/* build/",
+    "start": "node src/public/index.js",
+    "dev": "nodemon src/public/index.js"
   },
   "author": "",
   "license": "ISC",
