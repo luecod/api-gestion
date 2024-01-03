@@ -23,7 +23,6 @@ const Estudiante = sequelize.define('Estudiante', {
     },
     ciudad: {
         type: DataTypes.STRING(255),
-        unique: true
     },
     telefono: {
         type: DataTypes.STRING(20)
